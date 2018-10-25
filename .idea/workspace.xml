@@ -1,545 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="l1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BookmarkManager">
-    <bookmark url="file://D:/__ShElectr/pesv2_rangepage_automation/PESV2_Automation/src/test/java/com/schneider/pesv2_automation/steps/CommonSteps.java" description="int responseSize = ResourcesAndServices.getNodesFr..." line="720" />
-    <bookmark url="file://D:/__ShElectr/pesv2_rangepage_automation/PESV2_Automation/src/test/java/com/schneider/pesv2_automation/steps/CommonSteps.java" description="getElementWhichContainText(elementName, text, numb..." line="65" />
+    <bookmark url="file://D:/__ShElectr/pesv2_rangepage_automation/PESV2_Automation/src/test/java/com/schneider/pesv2_automation/steps/CommonSteps.java" description="int responseSize = ResourcesAndServices.getNodesFr..." line="734" />
+    <bookmark url="file://D:/__ShElectr/pesv2_rangepage_automation/PESV2_Automation/src/test/java/com/schneider/pesv2_automation/steps/CommonSteps.java" description="getElementWhichContainText(elementName, text, numb..." line="72" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732ef9d5-3308-45c4-8cf2-3a0701ee7f12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameFontTest/ComponentFont.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameFontTest/FrameFont.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameFontTest/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameImageTest/ImageComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameImageTest/ImageFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameImageTest/ImageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameTest/ComponentMy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameTest/FramesMy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameTest/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameTest2D/Component2D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameTest2D/Frame2D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part7/frameTest2D/Test2D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_01/CalcPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_01/TestCalc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_02/fromBook/TextComponentFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_02/myself/AreaPass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_02/myself/TestAreaPass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_02/NotIncapsulatedClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_02/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day34/17aug.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day34/task_01/Hrivna.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day34/task_01/Money.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day34/task_01/PersonM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day34/task_01/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day34/task_01/USD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day35/18aug.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day35/task_01/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day36/20aug.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day36/task_01/BigAnimal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day36/task_01/SmallAnimal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day36/task_01/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day36/task_02/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day37/22aug.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day37/task_01/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day38/task_01/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day38/task_01/MarkTwainBooj.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day38/task_01/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day39/29aug.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day39/task_04/Human.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day39/task_04/Man.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day39/task_04/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day39/task_04/Woman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day39/task_07/StaticBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day40/30aug.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day40/task_01/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day40/task_02/Factorial.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/Day1/task_01/Runner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/Day20/task_03/Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/Day20/task_03/Cow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/Day20/task_03/SiniiKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/Day20/task_03/Zoo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day10/9jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day11/task_01/july_11.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day12/12jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day13/13jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day14/14jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day15/15jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day16/jule16.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day16/task_03/2/text.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day16/task_03/3/text.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day17/jule17.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day18/18jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day19/19jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day20/jule20.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day6/date.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day7/date.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day8/7 jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/FirstTwenty/Day9/8 jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/jule22.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_01/Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_01/Climb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_01/Fly.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_01/InstancOf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_01/Kitty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_01/OverloadSth.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_01/Pet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_01/Run.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_02/FlyHorse$Fly.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_02/FlyHorse$Horse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_02/FlyHorse$Pegas.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_02/FlyHorse$SwimPegas.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_02/FlyHorse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_03/FlyHorseStep2$Fly.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_03/FlyHorseStep2$Horse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_03/FlyHorseStep2$Pegas.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_03/FlyHorseStep2$SwimPegas.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_03/FlyHorseStep2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day21/task_04/MinIndexArr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/24jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/Alcohol.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/Beer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/Cola.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/Drink.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/Screen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/Selectable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/StringObject$SimpleObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/StringObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/Updatable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/pack130209/Movable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_01/pack130209/Runnable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_02/ClassWork.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_02/EnglishTranslator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_02/Translator1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_02/pack130403/Animal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_02/pack130403/Fox.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_03/BeEaten.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_03/Cat5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_03/Dog5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_03/Eat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_03/Mouse5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day22/task_03/Move.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/25jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131102/Today.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131102/Weather.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131102/WeatherType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131103/ReadFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131103/file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131104/ReadFromConsole.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131104/mess.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131105/DBObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_01/pack131105/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_02/AbstaractRobot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_02/Attackable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_02/BodyParts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_02/Defensable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_02/Robot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_02/RoundOne.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_03/Arena.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_03/Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_03/CatSoldier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_03/CatsFigth.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day23/task_03/Part.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/28jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_01/ReadCountableNums.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_01/text.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_02/Screen$Monic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_02/Screen$Updatable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_02/Screen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_02/StringObjectTest$SimpleObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_02/StringObjectTest$StringObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_02/StringObjectTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_03/FairTail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_03/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_03/RepkaItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_03/repka.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_04/Animal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_04/BigFox.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_04/Fox.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_05/Solution$Desire.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_05/Solution$Dream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_05/Solution$Hobbie.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_05/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_06/InstaceOf2$Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_06/InstaceOf2$Moveable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_06/InstaceOf2$TomCat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_06/InstaceOf2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_06/InstanCeOf$Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_06/InstanCeOf$Pet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_06/InstanCeOf$Tiger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day24/task_06/InstanCeOf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day25/2aug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day25/task_01/Building.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day25/task_01/City.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day25/task_01/School.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day25/task_02/Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day25/task_02/ZooCat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/4aug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/Arkanoid$Ball.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/Arkanoid$Brick.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/Arkanoid$GameObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/Arkanoid$Paddle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/Arkanoid$Rectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/Arkanoid$ScoreBoard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/Arkanoid.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/task_01/Food.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/task_01/Kitchen$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/task_01/Kitchen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/task_01/Selectable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/task_02/Hen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/task_02/HenFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/task_02/RussianHen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day26/task_02/UkranianHen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day27/Bridge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day27/SuspensionBridge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day27/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day27/WaterBridge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/aug6.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/task_01/BubbleWine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/task_01/Drink.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/task_01/Party.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/task_01/Wine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/task_02/Looser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/task_02/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/task_02/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day28/task_02/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/7aug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_01/Circle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_01/Drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_01/Movable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_01/Rectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_01/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_02/CompItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_02/Compucter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_02/Keyboard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_02/Monitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_02/Mouse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day29/task_02/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day30/9aug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day30/task_02/Appartments.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day30/task_02/Apt1room.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day30/task_02/Apt2room.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day30/task_02/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day30/task_03/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day31/10aug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day31/task_1/Exception10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day32/14aug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day32/task_01/Singleton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day32/task_01/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day32/task_02/SolutionReflecsii.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/SecondTwenty/Day32/task_02/TestSeven.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_01/ArraySort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_01/EnterText.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_01/PrintList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_01/Runner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_02/RemoveString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_03/AddTenStrings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_04/MostShortString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_05/BackOrderStrings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_06/MostLongString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_07/DiffStrings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_08/NumbersList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_09/BackOrderNumbers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_10/CorrectWord.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_11/Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_11/Zoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_12/Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_12/Zoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_13/InitialzeCat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_13/Zoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_14/Dog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_14/FinalizeTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_14/Zoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_15/GetterSetter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_15/Zoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_16/StaticCat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_16/StaticZoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_17/Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_17/CircleFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_18/CircleConstrt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day1/task_18/CircleConstructFabric.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day10/9jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day10/task_01/UpperCaseMama.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day10/task_02/RemovePeopleWithSameNames.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day10/task_03/SortArrSpecialMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day10/task_04/MonthName.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day10/task_05/CatsSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day11/task_01/ClassMethods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day11/task_01/july_11.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/12jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_01/StackTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_01/StackTraceGetLine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_01/StackTraceTen2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_01/StackTraceten.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_01/StakcTraceNameMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_02/ArrayException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_02/ExceptionCatch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_02/ListException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_02/MapException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_02/StringException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_03/Human.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_03/LaFamilia.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day12/task_04/DataTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day13/13jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day13/task_01/ListsTaskPeopleCity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/14jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_01/Exceptions1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_02/CatchClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_02/Exception1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_02/Exception2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_02/Exception3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_03/StrangeExceptionBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_04/ExceptionsAgainFour.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_05/ExcePtion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_06/DevideByZero.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_07/InputExceptionReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_08/DateConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_09/VowelsConsonants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day14/task_10/StaicPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day15/15jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day15/task_01/SortNumWords.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day15/task_02/ListIntArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/jule16.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_01/ActionsGo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_01/FairyTail.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_01/GrandMa.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_01/Pie.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_01/RedHeat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_01/Wolf.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_01/Woodman.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_02/CatSix.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_02/CatZoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_03/2/text.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_03/3/text.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_03/FileMove.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_04/RemoveCopyTry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_05/ChangeType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_05/ChangeType2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_05/ChangeType3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_05/ChangeType4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_05/ChangeType5.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_06/Cast1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_06/Cast2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day16/task_06/Cast3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day17/jule17.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day17/task_01/MoreMoney.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day17/task_02/Alphabet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day17/task_03/Humanity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day17/task_04/StaticMin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day17/task_05/SortArrByAsc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day18/18jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day18/task_01/MapaTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day18/task_02/Horse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day18/task_02/Ierarchy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day18/task_02/Pegas.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/19jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_01/Cat1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_01/CatSecret.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_01/CatSecret2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_01/CatSecret3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_01/Dog1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_02/ArrListArr.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_03/task_01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_04/Adam.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_04/Animal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_04/Ape.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_04/Eva.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_04/Fish.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_04/Human.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_05/SafetyExact.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_06/ChessFigure.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_06/Queen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_07/Animal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day19/task_07/Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_01/RLString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_02/DoubleString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_03/BackOrderNum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_04/MNreplace.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_05/MaxMinNums.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_06/DoWhile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_07/ThreadBum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_08/ClubFrineds.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_08/Friends.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_09/Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_10/RectangleConstruct.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day2/task_11/FriendsInitializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/jule20.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_01/FindMinMax.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_02/HasMapTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_03/Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_03/Cow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_03/SiniiKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_03/Zoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_04/FindMin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_04/OverloadClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_05/AbstractPet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_05/Cow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_06/DogTest35.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_06/Duck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_06/Eat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_06/Fly.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_06/Human.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_06/Move.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_06/Run.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day20/task_06/Swim.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day3/task_01/Human.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day3/task_01/LaFamilia.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day3/task_02/Cats.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day3/task_03/ChangeFunctionality.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day3/task_04/BackOrderDesc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day4/task_01/ForEachList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day4/task_01/ForEachMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day4/task_01/ForEachTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day4/task_01/ListPrint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day4/task_01/MapPrint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day4/task_01/SetPrint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day4/task_02/Fruits.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day4/task_02/MapFruit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day5/task_01/CatList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day5/task_01/HashCat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day6/date.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day6/task_01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day6/task_02.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day7/date.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day7/task_01/RemoveSammerPeople.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day7/task_02/NameLastNameSame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day7/task_03/RemoveSetOverTen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day7/task_04/Lworld.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day8/7 jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day8/task_01/StaticTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day9/8 jule.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day9/task_01/SortByAlph.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day9/task_02/MapWithSameKeys.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FirstTwenty/Day9/task_03/ArraysAndMethods.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_02/fromBook/Start.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_03/RadioButtonFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_03/TestRadio.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_04/BorderFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_04/BorderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_05/DropList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_05/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_06/MenuFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HM/part9/task_06/StartApp.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/HM/part9/task_02/AreaPass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/HM/part9/task_02/TestAreaPass$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/l1/HM/part9/task_02/TestAreaPass.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/jule22.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/jule22.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_01/Cat.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_01/Cat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_01/Climb.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_01/Climb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_01/Fly.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_01/Fly.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_01/InstancOf.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_01/InstancOf.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_01/Kitty.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_01/Kitty.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_01/OverloadSth.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_01/OverloadSth.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_01/Pet.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_01/Pet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_01/Run.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_01/Run.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_02/FlyHorse.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_02/FlyHorse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_03/FlyHorseStep2.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_03/FlyHorseStep2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day21/task_04/MinIndexArr.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day21/task_04/MinIndexArr.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/24jule.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/24jule.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/Alcohol.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/Alcohol.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/Beer.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/Beer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/Cola.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/Cola.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/Drink.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/Drink.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/Screen.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/Screen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/Selectable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/Selectable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/StringObject.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/StringObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/Updatable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/Updatable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/pack130209/Movable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/pack130209/Movable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_01/pack130209/Runnable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_01/pack130209/Runnable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_02/ClassWork.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_02/ClassWork.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_02/EnglishTranslator.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_02/EnglishTranslator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_02/Translator1.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_02/Translator1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_02/pack130403/Animal.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_02/pack130403/Animal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_02/pack130403/Fox.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_02/pack130403/Fox.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_03/BeEaten.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_03/BeEaten.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_03/Cat5.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_03/Cat5.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_03/Dog5.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_03/Dog5.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_03/Eat.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_03/Eat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_03/Mouse5.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_03/Mouse5.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day22/task_03/Move.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day22/task_03/Move.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/25jule.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/25jule.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131102/Today.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131102/Today.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131102/Weather.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131102/Weather.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131102/WeatherType.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131102/WeatherType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131103/ReadFile.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131103/ReadFile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131103/file.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131103/file.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131104/ReadFromConsole.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131104/ReadFromConsole.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131104/mess.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131104/mess.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131105/DBObject.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131105/DBObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_01/pack131105/User.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_01/pack131105/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_02/AbstaractRobot.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_02/AbstaractRobot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_02/Attackable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_02/Attackable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_02/BodyParts.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_02/BodyParts.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_02/Defensable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_02/Defensable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_02/Robot.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_02/Robot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_02/RoundOne.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_02/RoundOne.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_03/Arena.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_03/Arena.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_03/Cat.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_03/Cat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_03/CatSoldier.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_03/CatSoldier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_03/CatsFigth.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_03/CatsFigth.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day23/task_03/Part.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day23/task_03/Part.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/28jule.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/28jule.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_01/ReadCountableNums.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_01/ReadCountableNums.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_01/text.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_01/text.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_02/Screen.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_02/Screen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_02/StringObjectTest.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_02/StringObjectTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_03/FairTail.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_03/FairTail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_03/Person.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_03/Person.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_03/RepkaItem.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_03/RepkaItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_03/repka.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_03/repka.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_04/Animal.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_04/Animal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_04/BigFox.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_04/BigFox.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_04/Fox.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_04/Fox.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_05/Solution.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_05/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_06/InstaceOf2.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_06/InstaceOf2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day24/task_06/InstanCeOf.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day24/task_06/InstanCeOf.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day25/2aug.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day25/2aug.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day25/task_01/Building.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day25/task_01/Building.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day25/task_01/City.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day25/task_01/City.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day25/task_01/School.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day25/task_01/School.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day25/task_02/Cat.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day25/task_02/Cat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day25/task_02/ZooCat.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day25/task_02/ZooCat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/4aug.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/4aug.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/Arkanoid.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/Arkanoid.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/task_01/Food.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/task_01/Food.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/task_01/Kitchen.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/task_01/Kitchen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/task_01/Selectable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/task_01/Selectable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/task_02/Hen.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/task_02/Hen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/task_02/HenFactory.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/task_02/HenFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/task_02/RussianHen.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/task_02/RussianHen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day26/task_02/UkranianHen.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/task_02/UkranianHen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day27/Bridge.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day27/Bridge.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day27/SuspensionBridge.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day27/SuspensionBridge.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day27/Test.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day27/Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day27/WaterBridge.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day27/WaterBridge.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/aug6.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/aug6.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/task_01/BubbleWine.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/task_01/BubbleWine.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/task_01/Drink.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/task_01/Drink.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/task_01/Party.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/task_01/Party.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/task_01/Wine.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/task_01/Wine.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/task_02/Looser.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/task_02/Looser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/task_02/Person.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/task_02/Person.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/task_02/Solution.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/task_02/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day28/task_02/User.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day28/task_02/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/7aug.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/7aug.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_01/Circle.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_01/Circle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_01/Drawable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_01/Drawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_01/Movable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_01/Movable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_01/Rectangle.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_01/Rectangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_01/Solution.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_01/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_02/CompItem.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_02/CompItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_02/Compucter.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_02/Compucter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_02/Keyboard.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_02/Keyboard.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_02/Monitor.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_02/Monitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_02/Mouse.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_02/Mouse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day29/task_02/Solution.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day29/task_02/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day30/9aug.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day30/9aug.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day30/task_02/Appartments.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day30/task_02/Appartments.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day30/task_02/Apt1room.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day30/task_02/Apt1room.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day30/task_02/Apt2room.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day30/task_02/Apt2room.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day30/task_02/Solution.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day30/task_02/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day30/task_03/Solution.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day30/task_03/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day31/10aug.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day31/10aug.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day31/task_1/Exception10.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day31/task_1/Exception10.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day32/14aug.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day32/14aug.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day32/task_01/Singleton.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day32/task_01/Singleton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day32/task_01/Solution.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day32/task_01/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day32/task_02/SolutionReflecsii.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day32/task_02/SolutionReflecsii.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day32/task_02/TestSeven.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day32/task_02/TestSeven.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day33/15aug.txt" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/15aug.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day33/task_01/OceanAnimal.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_01/OceanAnimal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day33/task_01/Orca.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_01/Orca.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day33/task_01/Otter.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_01/Otter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day33/task_01/Swimable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_01/Swimable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day33/task_01/Walkable.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_01/Walkable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondTwenty/Day33/task_01/Whale.java" afterPath="$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_01/Whale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HM/part9/task_02/fromBook/TextComponentFrame.java" afterPath="$PROJECT_DIR$/src/HM/part9/task_02/fromBook/TextComponentFrame.java" />
     </list>
     <ignored path="l1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -560,12 +46,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TextComponentFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HM/part9/task_02/fromBook/TextComponentFrame.java">
+      <file leaf-file-name="DropList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HM/part9/task_05/DropList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="133">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HM/part9/task_06/MenuFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HM/part9/task_06/StartApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HM/part9/task_05/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -592,17 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day33/task_02/NotIncapsulatedClass.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day34/task_01/Money.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day34/task_01/Hrivna.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day34/task_01/USD.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day34/task_01/PersonM.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day34/task_01/Solution.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day35/task_01/Solution.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day36/task_01/Goose.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day36/task_01/SmallAnimal.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day36/task_01/BigAnimal.java" />
-        <option value="$PROJECT_DIR$/src/SecondTwenty/Day36/task_01/Solution.java" />
         <option value="$PROJECT_DIR$/src/SecondTwenty/Day36/task_02/Solution.java" />
         <option value="$PROJECT_DIR$/src/SecondTwenty/Day37/task_01/Solution.java" />
         <option value="$PROJECT_DIR$/src/SecondTwenty/Day38/task_01/Book.java" />
@@ -642,7 +153,18 @@
         <option value="$PROJECT_DIR$/src/HM/part9/task_02/TestAreaPass.java" />
         <option value="$PROJECT_DIR$/src/HM/part9/task_02/AreaPass.java" />
         <option value="$PROJECT_DIR$/src/HM/part9/task_02/myself/TestAreaPass.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_02/fromBook/Start.java" />
         <option value="$PROJECT_DIR$/src/HM/part9/task_02/fromBook/TextComponentFrame.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_03/TestRadio.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_03/RadioButtonFrame.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_04/BorderTest.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_04/BorderFrame.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_05/Еуые.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_05/Test.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_05/DropList.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_06/MenyFrame.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_06/MenuFrame.java" />
+        <option value="$PROJECT_DIR$/src/HM/part9/task_06/StartApp.java" />
       </list>
     </option>
   </component>
@@ -677,8 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -733,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="task_02" />
+              <option name="myItemId" value="task_06" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -758,14 +279,6 @@
               <option name="myItemId" value="part9" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task_02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fromBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -782,96 +295,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="part9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task_01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="part7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="part7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frameTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -894,15 +334,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestAreaPass">
+  <component name="RunManager" selected="Application.StartApp">
+    <configuration default="false" name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HM.part9.task_02.fromBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="HM.part9.task_02.fromBook.Start" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="l1" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestRadio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HM.part9.task_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="HM.part9.task_03.TestRadio" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="l1" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BorderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HM.part9.task_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="HM.part9.task_04.BorderTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="l1" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="HM.part7.frameTest.*" />
+          <option name="PATTERN" value="HM.part9.task_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="HM.part7.frameTest.Test" />
+      <option name="MAIN_CLASS_NAME" value="HM.part9.task_05.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -915,74 +415,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="HM.part7.frameFontTest.*" />
+          <option name="PATTERN" value="HM.part9.task_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="HM.part7.frameFontTest.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="l1" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ImageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HM.part7.frameImageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="HM.part7.frameImageTest.ImageTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="l1" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HM.part9.task_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="HM.part9.task_01.TestCalc" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="l1" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestAreaPass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HM.part9.task_02.myself.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="HM.part9.task_02.myself.TestAreaPass" />
+      <option name="MAIN_CLASS_NAME" value="HM.part9.task_06.StartApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1260,19 +700,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ImageTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestCalc" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestAreaPass" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Start" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestRadio" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BorderTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StartApp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestAreaPass" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestCalc" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ImageTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StartApp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BorderTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestRadio" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Start" />
       </list>
     </recent_temporary>
   </component>
@@ -1290,7 +730,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1874" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1300,7 +740,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20182556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29513183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1418,7 +858,7 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="51" />
+      <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1427,92 +867,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_02/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day36/20aug.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day33/task_02/NotIncapsulatedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondTwenty/Day36/task_01/Goose.java" />
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day36/task_01/BigAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day36/task_01/SmallAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day37/22aug.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day36/task_02/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day36/task_01/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day38/task_01/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day38/task_01/MarkTwainBooj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day38/task_01/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day37/task_01/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JR/SecondTwenty/Day39/29aug.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1694,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1702,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1710,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1718,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,7 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1734,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1742,9 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1752,19 +1097,211 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/javax/swing/SwingConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_02/fromBook/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_02/fromBook/TextComponentFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/javax/swing/JLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="710" column="16" selection-start-line="710" selection-start-column="16" selection-end-line="710" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_03/TestRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_04/BorderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_03/RadioButtonFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_04/BorderFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/javax/swing/event/ChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/javax/swing/JSlider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="381" column="31" selection-start-line="381" selection-start-column="31" selection-end-line="381" selection-end-column="31" />
+          <folding>
+            <element signature="e#11382#11383#0" expanded="false" />
+            <element signature="e#11439#11440#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_05/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_02/fromBook/TextComponentFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_05/DropList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="133">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_06/MenuFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HM/part9/task_06/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>l1:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>l1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-4.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
