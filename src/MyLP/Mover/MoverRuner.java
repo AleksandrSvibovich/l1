@@ -19,7 +19,7 @@ public class MoverRuner implements Runnable {
     public void run() {
         Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
         try {
-            while (true) {
+            while (!Thread.currentThread().isInterrupted()) {
 
                 Robot robot = new Robot();
                 int x = (int) (Math.random() * size.width);
@@ -31,7 +31,8 @@ public class MoverRuner implements Runnable {
             e.printStackTrace();
         } catch (InterruptedException e) {
             System.out.println(e.getCause() + " " + e.getMessage());
-
+        }finally {
+            System.out.println(Thread.currentThread().getStackTrace());
         }
     }
 }

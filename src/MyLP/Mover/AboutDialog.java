@@ -10,7 +10,9 @@ import java.awt.event.ActionListener;
  */
 public class AboutDialog extends JDialog {
     public AboutDialog(JFrame owner) {
-        super(owner,"About program", true);
+        super(owner,"About...", true);
+        setLocation(600,400);
+        add(new JLabel("<html><h1>Mishuta, Hello!</h></html>"), BorderLayout.NORTH);
         add(new JLabel("This program, moving cursor with preset time interval "), BorderLayout.CENTER);
         JButton ok = new JButton("Ok");
         ok.addActionListener(new ActionListener() {
