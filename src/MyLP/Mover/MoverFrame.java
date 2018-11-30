@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.security.PrivateKey;
 
 public class MoverFrame extends JFrame {
     private JPanel northPanel;
@@ -13,29 +12,54 @@ public class MoverFrame extends JFrame {
     private JButton stop;
     private JLabel label;
     private JTextField field;
-    private MoverRuner moverRuner;
-    private Thread thread1 = new Thread(moverRuner);
+    private Thread thread1;
+    private JMenuBar jMenu;
+    private JMenu file;
+    private JMenu empty;
+    private JMenuItem about;
+    private AboutDialog dialog;
 
-    public MoverFrame(){
+    public MoverFrame() {
+        jMenu = new JMenuBar();
+        setJMenuBar(jMenu);
+
+        file = new JMenu("File");
+        empty = new JMenu("");
+        about = new JMenuItem("About");
+        about.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(dialog == null){
+                    dialog = new AboutDialog(MoverFrame.this);
+                    dialog.setVisible(true);
+                }else {
+                    dialog.setVisible(true);
+                }
+            }
+        });
+
+        file.add(about);
+        jMenu.add(file);
+        jMenu.add(empty);
+
         start = new JButton("Start");
         stop = new JButton("Stop");
         label = new JLabel("Enter time in sec.");
         field = new JTextField(3);
 
         northPanel = new JPanel();
-        northPanel.setLayout(new GridLayout(1,2));
+        northPanel.setLayout(new GridLayout(1, 2));
         northPanel.add(label);
         northPanel.add(field);
 
-        add(northPanel,BorderLayout.NORTH);
+        add(northPanel, BorderLayout.NORTH);
 
         southPanel = new JPanel();
-        southPanel.setLayout(new GridLayout(1,2));
+        southPanel.setLayout(new GridLayout(1, 2));
 
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                getUserTimeOut(field.getText());
                 start.setEnabled(false);
                 field.setEnabled(false);
                 actionMove();
@@ -53,23 +77,18 @@ public class MoverFrame extends JFrame {
 
         southPanel.add(start);
         southPanel.add(stop);
-        add(southPanel,BorderLayout.SOUTH);
-
-    }
-
-    private void getUserTimeOut(String text) {
-        int num;
-        if(!text.equalsIgnoreCase("")){
-            num = Integer.parseInt(text);
-        }else {
-            num = 5;
-        }
-        moverRuner =  new MoverRuner(num);
-
+        add(southPanel, BorderLayout.SOUTH);
+        pack();
     }
 
 
     private void actionMove() {
-        thread1.run();
+        String fieldText = field.getText();
+        int userTimeOut = Integer.parseInt(fieldText);
+        MoverRuner moverRuner1 = new MoverRuner(userTimeOut);
+        thread1 = new Thread(moverRuner1);
+        thread1.start();
     }
 }
+
+
