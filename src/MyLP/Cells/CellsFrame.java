@@ -12,8 +12,10 @@ public class CellsFrame extends JFrame {
     private JButton stop;
     private JButton pause;
     private Thread thread;
-
-
+    private boolean isStartEnable;
+    private boolean isStopEnable;
+    private boolean isPauseEnable;
+    Cell cell;
 
 
     public CellsFrame(){
@@ -21,22 +23,30 @@ public class CellsFrame extends JFrame {
         start = new JButton("Start");
         pause = new JButton("Pause");
         stop = new JButton("Stop");
-        stop.setEnabled(false);
-        pause.setEnabled(false);
+        stop.setEnabled(isStopEnable);
+        pause.setEnabled(isPauseEnable);
+
+
+
 
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 start.setEnabled(false);
-                stop.setEnabled(true);
-                pause.setEnabled(true);
+
             }
         });
 
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                start.setEnabled(true);
+
+            }
+        });
+
+        pause.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
 
             }
         });
@@ -45,12 +55,13 @@ public class CellsFrame extends JFrame {
         panel.add(pause);
         panel.add(stop);
         add(panel, BorderLayout.SOUTH);
+//        add(cell);
+        cell = new Cell(60,450,460, Color.RED);
+        add(cell);
+
+
     }
 
-    private void goToLife() {
-        thread = new Thread(new Cell());
-        thread.start();
-    }
 
 
 }

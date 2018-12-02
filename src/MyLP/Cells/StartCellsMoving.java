@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class StartCellsMoving {
-    private static final int HEIGHT = 350;
-    private static final int WIDTH = 500;
+    private static final int HEIGHT = 800;
+    private static final int WIDTH = 1580;
 
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {

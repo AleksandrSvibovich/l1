@@ -1,4 +1,4 @@
-package HM.part9.task_08;
+package HM.part15;
 
 import java.awt.*;
 
@@ -6,8 +6,8 @@ import java.awt.*;
  * Created by Aleksandr_Svibovich on 11/28/2018.
  */
 public class BallRunable implements Runnable {
-    private static final int STEPS = 1000;
-    private static final int DELAY = 3000;
+    private static final int STEPS = 10000;
+    private static final int DELAY = 50;
     private Ball ball;
     private Component component;
 
@@ -22,7 +22,11 @@ public class BallRunable implements Runnable {
             for (int i = 0; i <STEPS; i++) {
                 ball.move(component.getBounds());
                 component.setBackground(Color.BLUE);
+                component.invalidate();
                 component.repaint();
+                Thread.sleep(DELAY);
+                component.repaint();
+                component.invalidate();
                 Thread.sleep(DELAY);
             }
         }catch (InterruptedException ex){

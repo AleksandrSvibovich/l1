@@ -15,25 +15,28 @@ public class Component2D extends JComponent {
     @Override
     protected void paintComponent(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;  // кастим графикс к 2Д формату
+
+//        Ellipse2D ellipse2D2 = new Ellipse2D.Double();
+//        ellipse2D2.setFrame(rect);  // вписываем одну фигуру в другую
+//        Ellipse2D ellipse2D = new Ellipse2D.Double(75.0, 75.0, 200.0, 200.0);
+//        Line2D line = new Line2D.Double();
+//        line.setLine(75.0, 75.0, 20.0, 49.0);
         Rectangle2D rect = new Rectangle2D.Double(20.0, 20.0, 200.0, 80.0);
-        Ellipse2D ellipse2D2 = new Ellipse2D.Double();
-        ellipse2D2.setFrame(rect);  // вписываем одну фигуру в другую
-        Ellipse2D ellipse2D = new Ellipse2D.Double(75.0, 75.0, 200.0, 200.0);
-        Line2D line = new Line2D.Double();
-        line.setLine(75.0, 75.0, 20.0, 49.0);
         double x = rect.getCenterX();
         double y = rect.getCenterY();
         double radius = 150;
         Ellipse2D ellipse2D1 = new Ellipse2D.Double(x, y, x + radius, y + radius);
+        ellipse2D1.setFrame(rect);
 
 
-        g2.setColor(Color.cyan); // указываем цвет
-        g2.draw(ellipse2D2); // рисуем фигуру
-        g2.draw(ellipse2D);
+//        g2.setColor(Color.cyan); // указываем цвет
+//        g2.draw(ellipse2D2); // рисуем фигуру
+//        g2.draw(ellipse2D);
+//        g2.draw(rect);
+//        g2.fill(rect);  // заливка фигуры цветом
+//        g.setColor(Color.BLUE);
+//        g2.draw(line);
         g2.draw(rect);
-        g2.fill(rect);  // заливка фигуры цветом
-        g.setColor(Color.BLUE);
-        g2.draw(line);
         g2.draw(ellipse2D1);
 
 
