@@ -1,4 +1,4 @@
-package HM.part15;
+package HM.part9.task_08;
 
 import javax.swing.*;
 

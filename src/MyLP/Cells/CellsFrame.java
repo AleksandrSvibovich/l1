@@ -1,38 +1,25 @@
 package MyLP.Cells;
 
 import javax.swing.*;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableColumnModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Enumeration;
 
 public class CellsFrame extends JFrame {
 
-    private final JPanel panel;
-    private JButton start;
-    private JButton stop;
-    private JButton pause;
-    private Thread thread;
-    private boolean isStartEnable;
-    private boolean isStopEnable;
-    private boolean isPauseEnable;
-    Cell cell;
 
 
     public CellsFrame(){
-        panel = new JPanel();
-        start = new JButton("Start");
-        pause = new JButton("Pause");
-        stop = new JButton("Stop");
-        stop.setEnabled(isStopEnable);
-        pause.setEnabled(isPauseEnable);
-
-
-
+        JPanel panel = new JPanel();
+        JButton start = new JButton("Start");
+        JButton stop = new JButton("Stop");
 
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                start.setEnabled(false);
 
             }
         });
@@ -40,28 +27,32 @@ public class CellsFrame extends JFrame {
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                System.exit(0);
             }
         });
 
-        pause.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
+        JPanel panel1 = new JPanel();
+        JTable table = getMyTable();
+        panel1.add(table);
 
         panel.add(start);
-        panel.add(pause);
         panel.add(stop);
         add(panel, BorderLayout.SOUTH);
-//        add(cell);
-        cell = new Cell(60,450,460, Color.RED);
-        add(cell);
-
+        add(panel1, BorderLayout.NORTH);
 
     }
 
+    private JTable getMyTable() {
+        JTable table = new JTable(17,59);
+        TableColumnModel model = table.getColumnModel();
+        Enumeration<TableColumn> e = model.getColumns();
+        while (e.hasMoreElements()){
+            TableColumn column = (TableColumn) e.nextElement();
+            column.setMinWidth(10);
+            column.setMaxWidth(10);
+        }
+        return table;
+    }
 
 
 }
