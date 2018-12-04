@@ -20,7 +20,6 @@ public class MoverRuner implements Runnable {
         Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
         try {
             while (!Thread.currentThread().isInterrupted()) {
-
                 Robot robot = new Robot();
                 int x = (int) (Math.random() * size.width);
                 int y = (int) (Math.random() * size.height);

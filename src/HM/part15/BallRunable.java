@@ -21,13 +21,18 @@ public class BallRunable implements Runnable {
         try{
             for (int i = 0; i <STEPS; i++) {
                 ball.move(component.getBounds());
-                component.setBackground(Color.BLUE);
-                component.invalidate();
-                component.repaint();
+//                component.setBackground(Color.BLUE);
+//                component.invalidate();
+//                component.repaint();
+
                 Thread.sleep(DELAY);
+                component.revalidate();
                 component.repaint();
-                component.invalidate();
+
+
                 Thread.sleep(DELAY);
+
+
             }
         }catch (InterruptedException ex){
             System.out.println(ex.getMessage());

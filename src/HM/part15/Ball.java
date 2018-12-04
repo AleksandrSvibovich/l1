@@ -17,26 +17,26 @@ public class Ball {
 
 
     public void move(Rectangle bounds) {
-//        x += dx;
-//        y += dy;
-//        if (x < bounds.getMinX()){
-//            x = bounds.getMinX() ;
-//            dx = -dx;
-//        }
-//        if (x + XSIZE >= bounds.getMaxX()){
-//            x = bounds.getMaxX() - XSIZE;
-//            dx = -dx;
-//        }
-//        if (y < bounds.getMinY()){
-//            y = bounds.getMinY() ;
-//            dy = -dy;
-//        }
-//        if (y + YSIZE >= bounds.getMaxY()){
-//            y = bounds.getMaxY() - YSIZE;
-//            dy = -dy;
-//        }
-        x = Math.random()*100;
-        y = Math.random()*100;
+        x += dx;
+        y += dy;
+        if (x < bounds.getMinX()){
+            x = bounds.getMinX() ;
+            dx = -dx;
+        }
+        if (x + XSIZE >= bounds.getMaxX()){
+            x = bounds.getMaxX() - XSIZE;
+            dx = -dx;
+        }
+        if (y < bounds.getMinY()){
+            y = bounds.getMinY() ;
+            dy = -dy;
+        }
+        if (y + YSIZE >= bounds.getMaxY()){
+            y = bounds.getMaxY() - YSIZE;
+            dy = -dy;
+        }
+//        x = Math.random()*100;
+//        y = Math.random()*100;
     }
 
     /*

@@ -31,14 +31,14 @@ public class CellsFrame extends JFrame {
             }
         });
 
-        JPanel panel1 = new JPanel();
+        JPanel panel2 = new JPanel();
         JTable table = getMyTable();
-        panel1.add(table);
+        panel2.add(table);
 
         panel.add(start);
         panel.add(stop);
         add(panel, BorderLayout.SOUTH);
-        add(panel1, BorderLayout.NORTH);
+        add(panel2, BorderLayout.NORTH);
 
     }
 

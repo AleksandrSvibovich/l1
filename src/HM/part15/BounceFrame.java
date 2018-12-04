@@ -43,6 +43,8 @@ public class BounceFrame extends JFrame {
         Ball b = new Ball();
         comp.add(b);
         add(comp);
+
+
         Runnable r = new BallRunable(b,comp);
         Thread t = new Thread(r);
         t.start();
