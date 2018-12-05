@@ -13,9 +13,9 @@ public class StartTimer {
             public void run() {
                 Timer frame = new Timer();
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setSize(320,90);
+                frame.setSize(390,90);
                 frame.setTitle("Timer");
-                frame.setResizable(false);
+                frame.setResizable(true);
                 frame.setVisible(true);
             }
         });
