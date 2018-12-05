@@ -1,4 +1,4 @@
-package MyLP.SecTimer;
+package H_SWING.SecTimer;
 
 import javax.swing.*;
 import java.awt.*;
