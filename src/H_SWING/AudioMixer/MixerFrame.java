@@ -81,7 +81,7 @@ public class MixerFrame extends JFrame {
             }
         });
 
-        JPanel panel = new JPanel();
+        JPanel panel = new JPanel(false);
         panel.add(jLabBass);
         panel.add(jSldBass);
         panel.add(jLabMid);
@@ -124,7 +124,7 @@ public class MixerFrame extends JFrame {
         jSldBass = new JSlider(-10, 10);
         jSldMid = new JSlider(-10, 10);
         jSldTre = new JSlider(-10, 10);
-        jSldBal = new JSlider(0, 10, 0);
+        jSldBal = new JSlider(-5, 5, 0);
         jSldVolume = new JSlider(-5, 5);
 
         jSldBass.setMajorTickSpacing(2);
@@ -222,11 +222,11 @@ public class MixerFrame extends JFrame {
 
         int b = jSldBal.getValue();
         if (b > 0) {
-            bal = "Rigth " + decimalFormat.format(jSldBal.getValue());
+            bal = "Rigth " + " + "+(jSldBal.getValue());
         } else if (b == 0) {
             bal = "Center";
         } else {
-            bal = "Left " + decimalFormat.format(-jSldBal.getValue());
+            bal = "Left " + (jSldBal.getValue());
         }
 
         jLabInfo.setText("<html>Treble: " +

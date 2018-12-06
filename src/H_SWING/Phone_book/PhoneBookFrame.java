@@ -48,13 +48,7 @@ public class PhoneBookFrame extends JFrame {
         buttonGroup.add(endsWith);
 
 
-<<<<<<< HEAD
-        resultPanel.add(result);
 
-        add(panelInput,BorderLayout.NORTH);
-        add(panelBoxRadio,BorderLayout.CENTER);
-        add(resultPanel,BorderLayout.SOUTH);
-=======
         nameField.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -92,7 +86,6 @@ public class PhoneBookFrame extends JFrame {
         add(startsWith);
         add(endsWith);
 
->>>>>>> 8eda2ae4a93b3116245d3e0519ef9e00d96ea876
 
     }
 
