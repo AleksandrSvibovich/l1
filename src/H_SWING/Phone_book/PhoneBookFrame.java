@@ -56,7 +56,7 @@ public class PhoneBookFrame extends JFrame {
         panelBoxRadio.add(endsWith);
 
         resultPanel.add(result);
-        
+
         add(panelInput,BorderLayout.NORTH);
         add(panelBoxRadio,BorderLayout.CENTER);
         add(resultPanel,BorderLayout.SOUTH);
