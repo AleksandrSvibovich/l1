@@ -10,7 +10,10 @@ import java.util.Calendar;
  * Created by Aleksandr_Svibovich on 12/4/2018.
  */
 public class Timer extends JFrame {
-    public long sec;
+    public double sec;
+    String one = "";
+    String two = "";
+    String three = "";
 
     public Timer() {
         setLayout(new FlowLayout());
@@ -18,18 +21,39 @@ public class Timer extends JFrame {
         JLabel timeInSeconds = new JLabel("Now nothing");
         JButton start = new JButton("Start");
         JButton stop = new JButton("Stop");
+        JLabel log = new JLabel("logging on:");
+        JCheckBox logOn = new JCheckBox();
+        JLabel logMessage = new JLabel();
+
 
         ActionListener listener = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                Calendar calendar = Calendar.getInstance();
+
                 if (e.getActionCommand().equalsIgnoreCase("Start")) {
-                    sec = calendar.getTimeInMillis();
+                    stop.setEnabled(true);
+                    start.setEnabled(false);
+                    sec = (double) e.getWhen();
                     timeInSeconds.setText("in progress");
                 } else {
-
-                    Long result = (calendar.getTimeInMillis()-sec)/1000;
+                    start.setEnabled(true);
+                    stop.setEnabled(false);
+                    double result = (double) ((e.getWhen() - sec) / 1000);
+                    if (logOn.isSelected()) {
+                        if (one.equals("")) {
+                            one = result + ";";
+                        } else if (two.equals("")) {
+                            two = result + ";";
+                        } else if (three.equals("")) {
+                            three = result + ";";
+                        } else {
+                            one = two;
+                            two = three;
+                            three = result + ";";
+                        }
+                        logMessage.setText(one + " " + two + " " + three + " ");
+                    }
                     timeInSeconds.setText("Result is - " + result + " sec.");
                 }
             }
@@ -42,6 +66,9 @@ public class Timer extends JFrame {
         panel.add(start);
         panel.add(stop);
         add(panel);
+        add(log);
+        add(logOn);
+        add(logMessage);
         pack();
 
     }

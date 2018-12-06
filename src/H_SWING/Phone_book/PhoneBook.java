@@ -13,7 +13,7 @@ public class PhoneBook {
             public void run() {
                 PhoneBookFrame frame = new PhoneBookFrame();
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setSize(450,300);
+                frame.setSize(200,300);
                 frame.setTitle("Phone Book");
                 frame.setResizable(false);
                 frame.setVisible(true);
