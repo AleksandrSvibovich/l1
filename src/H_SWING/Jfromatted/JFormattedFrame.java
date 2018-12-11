@@ -34,7 +34,7 @@ public class JFormattedFrame extends JFrame {
     public JFormattedFrame() {
         setLayout(new GridLayout(8, 1));
         try {
-            MaskFormatter maskFormatter = new MaskFormatter("##-###");
+            MaskFormatter maskFormatter = new MaskFormatter("****");
             id = new JFormattedTextField(maskFormatter);
         } catch (ParseException e) {
             System.out.println("Invalid format");
@@ -42,20 +42,26 @@ public class JFormattedFrame extends JFrame {
         }
 
         id.setColumns(15);
-        id.setValue(24 - 895);
+        id.setValue("24-895");
+        id.setFocusLostBehavior(JFormattedTextField.COMMIT_OR_REVERT);
 
         nf = NumberFormat.getCurrencyInstance();
         nf.setMaximumIntegerDigits(5);
         nf.setMinimumFractionDigits(2);
 
+
         salary = new JFormattedTextField(nf);
         salary.setColumns(15);
         salary.setValue(new Integer(7000));
+        // поведение при потери фокуса
+        salary.setFocusLostBehavior(JFormattedTextField.REVERT);
 
         df = DateFormat.getDateInstance();
         hired = new JFormattedTextField(df);
         hired.setColumns(15);
         hired.setValue(new Date());
+
+        hired.setFocusLostBehavior(JFormattedTextField.PERSIST);
 
         id.addPropertyChangeListener("Value", new PropertyChangeListener() {
             @Override
