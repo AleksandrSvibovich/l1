@@ -17,7 +17,18 @@ public class MenuFrame extends JFrame {
     DebugAction clearAct;
     DebugAction resumeAct;
 
-    ActionListener listener;
+    ActionListener listener = new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            String comStr = e.getActionCommand();
+            if (comStr.equalsIgnoreCase("Exit")) {
+                System.exit(0);
+            } else {
+                label.setText(comStr + " Selected");
+            }
+        }
+    };
+
 
     public MenuFrame() {
         label = new JLabel();
@@ -46,7 +57,7 @@ public class MenuFrame extends JFrame {
 
         add(toolBar, BorderLayout.NORTH);
         setJMenuBar(menuBar);
-        add(label,BorderLayout.CENTER);
+        add(label, BorderLayout.CENTER);
 
         listener = new ActionListener() {
             @Override
@@ -66,16 +77,16 @@ public class MenuFrame extends JFrame {
         menu.setMnemonic(KeyEvent.VK_F);
 
         JMenuItem open = new JMenuItem("Open", KeyEvent.VK_O);
-        open.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O,InputEvent.CTRL_MASK));
+        open.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, InputEvent.CTRL_MASK));
 
         JMenuItem close = new JMenuItem("Close", KeyEvent.VK_C);
-        close.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C,InputEvent.CTRL_MASK));
+        close.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, InputEvent.CTRL_MASK));
 
         JMenuItem save = new JMenuItem("Save", KeyEvent.VK_S);
-        save.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S,InputEvent.CTRL_MASK));
+        save.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.CTRL_MASK));
 
         JMenuItem exit = new JMenuItem("Exit", KeyEvent.VK_E);
-        exit.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_E,InputEvent.CTRL_MASK));
+        exit.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_E, InputEvent.CTRL_MASK));
 
         menu.add(open);
         menu.add(close);
@@ -96,18 +107,18 @@ public class MenuFrame extends JFrame {
     private void makeActions() {
         ImageIcon icon = new ImageIcon("test.gif");
 
-        setAct = new DebugAction("Set Point", icon,KeyEvent.VK_S,KeyEvent.VK_B,"set point");
-        clearAct = new DebugAction("Clear Point", icon,KeyEvent.VK_C,KeyEvent.VK_L,"clear Point");
-        resumeAct = new DebugAction("Resume Point", icon,KeyEvent.VK_R,KeyEvent.VK_R,"resume Point");
+        setAct = new DebugAction("Set Point", icon, KeyEvent.VK_S, KeyEvent.VK_B, "set point");
+        clearAct = new DebugAction("Clear Point", icon, KeyEvent.VK_C, KeyEvent.VK_L, "clear Point");
+        resumeAct = new DebugAction("Resume Point", icon, KeyEvent.VK_R, KeyEvent.VK_R, "resume Point");
 
         clearAct.setEnabled(false);
     }
 
     private void makeToolBar() {
         toolBar = new JToolBar();
-        JButton set = new JButton("Set");
-        JButton clear = new JButton("Clear");
-        JButton resume = new JButton("Resume");
+        JButton set = new JButton(setAct);
+        JButton clear = new JButton(clearAct);
+        JButton resume = new JButton(resumeAct);
 
         toolBar.add(set);
         toolBar.add(clear);
@@ -197,11 +208,11 @@ public class MenuFrame extends JFrame {
 
     }
 
-    class DebugAction extends AbstractAction {
-        public DebugAction(String name, Icon image, int mnem, int accel, String tooltip) {
+    private class DebugAction extends AbstractAction {
+        DebugAction(String name, Icon image, int mnem, int accel, String tooltip) {
             super(name, image);
             putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(accel, InputEvent.CTRL_MASK));
-            putValue(MNEMONIC_KEY, new Integer(mnem));
+            putValue(MNEMONIC_KEY, mnem);
             putValue(SHORT_DESCRIPTION, tooltip);
         }
 
@@ -209,6 +220,13 @@ public class MenuFrame extends JFrame {
         public void actionPerformed(ActionEvent e) {
             String comStr = e.getActionCommand();
             label.setText(comStr + " Selected");
+            if (comStr.equalsIgnoreCase("Set Point")){
+                clearAct.setEnabled(true);
+                setAct.setEnabled(false);
+            }else {
+                setAct.setEnabled(true);
+                clearAct.setEnabled(false);
+            }
         }
     }
 }
