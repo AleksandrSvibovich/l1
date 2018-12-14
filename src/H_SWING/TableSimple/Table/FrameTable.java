@@ -1,4 +1,4 @@
-package H_SWING.TableSimple;
+package H_SWING.TableSimple.Table;
 
 import javax.swing.*;
 
@@ -19,6 +19,12 @@ public class FrameTable extends JFrame {
 
     public FrameTable(){
         table = new JTable(arr2levels, headers);
+        table.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
+        table.setCellSelectionEnabled(true);
+
+        // делает тоже самое что и строка выше
+//        table.setColumnSelectionAllowed(true);
+//        table.setRowSelectionAllowed(true);
         JScrollPane sPane = new JScrollPane(table);
         add(sPane);
 
