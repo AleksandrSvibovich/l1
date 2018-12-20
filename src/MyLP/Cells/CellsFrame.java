@@ -9,21 +9,23 @@ import java.awt.event.ActionListener;
 import java.util.Enumeration;
 
 public class CellsFrame extends JFrame {
+    MyPanel panel2 = new MyPanel(300,400);
 
-
-
-    public CellsFrame(){
+    public CellsFrame() {
+        setLayout(new FlowLayout());
         JPanel panel = new JPanel();
         JButton start = new JButton("Start");
         JButton stop = new JButton("Stop");
 
-        start.addActionListener(new ActionListener() {
+
+        ActionListener listener = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                startPainting();
             }
-        });
+        };
 
+        start.addActionListener(listener);
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -31,9 +33,10 @@ public class CellsFrame extends JFrame {
             }
         });
 
-        JPanel panel2 = new JPanel();
-        JTable table = getMyTable();
-        panel2.add(table);
+
+
+//        JTable table = getMyTable();
+//        panel2.add(table);
 
         panel.add(start);
         panel.add(stop);
@@ -42,15 +45,21 @@ public class CellsFrame extends JFrame {
 
     }
 
+    private void startPainting() {
+        panel2.repaint();
+    }
+
     private JTable getMyTable() {
-        JTable table = new JTable(17,59);
+        JTable table = new JTable(16, 40);
         TableColumnModel model = table.getColumnModel();
         Enumeration<TableColumn> e = model.getColumns();
-        while (e.hasMoreElements()){
+        while (e.hasMoreElements()) {
             TableColumn column = (TableColumn) e.nextElement();
             column.setMinWidth(10);
             column.setMaxWidth(10);
         }
+        table.setColumnSelectionAllowed(true);
+        table.setRowSelectionAllowed(true);
         return table;
     }
 
