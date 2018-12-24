@@ -29,18 +29,12 @@ public class MyPanel extends JPanel {
         ins = getInsets();
         g.setColor(Color.BLACK);
 
-//        for (int i = 0; i < (x*y)/50; i++) {
-//            int x = random.nextInt(width - ins.bottom);
-//            int y = random.nextInt(heigth - ins.left);
-//            g.fillRect(x, y, 4, 4);
-//        }
         if (list != null) {
             for (int i = 0; i < list.size(); i++) {
                 Rectangle rectangle = list.get(i);
-                rectangle.setBounds(random.nextInt(50), random.nextInt(50), 5, 5);
+                rectangle.setBounds(random.nextInt(300), random.nextInt(400), 5, 5);
                 Graphics2D g2 = (Graphics2D) g;
                 g2.fill(rectangle);
-//            g.fillRect();
             }
         }
     }

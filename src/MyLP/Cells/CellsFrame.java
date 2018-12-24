@@ -38,14 +38,9 @@ public class CellsFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 timer.stop();
-                System.exit(0);
             }
         });
 
-
-
-//        JTable table = getMyTable();
-//        panel2.add(table);
 
         panel.add(start);
         panel.add(stop);
@@ -55,9 +50,9 @@ public class CellsFrame extends JFrame {
     }
 
     private void fillArray(int i) {
-        for (int j = 0; j <i ; j++) {
+//        for (int j = 0; j <i ; j++) {
             panel2.add(new Rectangle());
-        }
+//        }
     }
 
     private void startPainting() {
