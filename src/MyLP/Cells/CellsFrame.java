@@ -9,31 +9,38 @@ import java.awt.event.ActionListener;
 import java.util.Enumeration;
 
 public class CellsFrame extends JFrame {
+    MyPanel panel2 = new MyPanel(300,400);
 
-
-
-    public CellsFrame(){
+    public CellsFrame() {
+        setLayout(new FlowLayout());
         JPanel panel = new JPanel();
         JButton start = new JButton("Start");
         JButton stop = new JButton("Stop");
 
+
+        ActionListener listener = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                startPainting();
+            }
+        };
+        Timer timer = new Timer(1000,listener);
+
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                fillArray(50);
+                timer.start();
             }
         });
-
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.exit(0);
+                timer.stop();
             }
         });
 
-        JPanel panel2 = new JPanel();
-        JTable table = getMyTable();
-        panel2.add(table);
 
         panel.add(start);
         panel.add(stop);
@@ -42,17 +49,29 @@ public class CellsFrame extends JFrame {
 
     }
 
-    private JTable getMyTable() {
-        JTable table = new JTable(17,59);
-        TableColumnModel model = table.getColumnModel();
-        Enumeration<TableColumn> e = model.getColumns();
-        while (e.hasMoreElements()){
-            TableColumn column = (TableColumn) e.nextElement();
-            column.setMinWidth(10);
-            column.setMaxWidth(10);
-        }
-        return table;
+    private void fillArray(int i) {
+//        for (int j = 0; j <i ; j++) {
+            panel2.add(new Rectangle());
+//        }
     }
+
+    private void startPainting() {
+        panel2.repaint();
+    }
+
+//    private JTable getMyTable() {
+//        JTable table = new JTable(16, 40);
+//        TableColumnModel model = table.getColumnModel();
+//        Enumeration<TableColumn> e = model.getColumns();
+//        while (e.hasMoreElements()) {
+//            TableColumn column = (TableColumn) e.nextElement();
+//            column.setMinWidth(10);
+//            column.setMaxWidth(10);
+//        }
+//        table.setColumnSelectionAllowed(true);
+//        table.setRowSelectionAllowed(true);
+//        return table;
+//    }
 
 
 }

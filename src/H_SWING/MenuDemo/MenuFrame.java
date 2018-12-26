@@ -8,7 +8,7 @@ import java.awt.event.*;
  * Created by Aleksandr_Svibovich on 12/13/2018.
  */
 public class MenuFrame extends JFrame {
-    JLabel label; 
+    JLabel label;
     JMenuBar menuBar;
     JToolBar toolBar;
     JPopupMenu popupMenu;
