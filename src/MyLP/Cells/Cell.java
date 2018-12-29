@@ -7,19 +7,18 @@ public class Cell extends Rectangle {
     private int x;
     private int y;
 
-    public void setAlive(boolean alive) {
-        isAlive = alive;
-    }
-
-    private boolean isAlive;
-
     public Cell(){
-        isAlive = true;
+//        isAlive = true;
     }
 
-    public boolean isAlive() {
-        return isAlive;
-    }
+
+//    private boolean isAlive;
+//    public boolean isAlive() {
+//        return isAlive;
+//    }
+//    public void setAlive(boolean alive) {
+//        isAlive = alive;
+//    }
 
     public void setPosition(int x, int y) {
         this.y = y;

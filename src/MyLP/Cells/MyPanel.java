@@ -4,16 +4,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Random;
 
 public class MyPanel extends JPanel {
     private Insets ins;
     private Random random;
-    private static HashSet<Integer> positionsX = new HashSet<>();
-    private static HashSet<Integer> positionsY = new HashSet<>();
+    private static HashSet<Integer[]> positions = new HashSet<>();
     private int x;
     private int y;
-
     private ArrayList<Cell> listCells = new ArrayList<>();
 
     public MyPanel(int x, int y) {
@@ -27,12 +26,12 @@ public class MyPanel extends JPanel {
 
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        int heigth = getHeight();
+        int height = getHeight();
         int width = getWidth();
         for (int i = 10; i < width; i += 10) {
-            g.drawLine(i, heigth, i, 0);
+            g.drawLine(i, height, i, 0);
         }
-        for (int j = 10; j < heigth; j += 10) {
+        for (int j = 10; j < height; j += 10) {
             g.drawLine(width, j, 0, j);
         }
 
@@ -50,29 +49,41 @@ public class MyPanel extends JPanel {
         }
     }
 
+
     public void createCells() {
-
         Cell cell = new Cell();
-        int x = generateXPosition();
-        int y = generateYPosition();
-        cell.setPosition(x, y);
-        listCells.add(cell);
-
-    }
-
-    private int generateXPosition() {
-        int width = getWidth();
-        int x = Math.round(random.nextInt(width / 10) * 10);
-        if (positionsX.contains(x)) {
-           
+        cell = generatePosition(cell);
+        if (cell != null) {
+            listCells.add(cell);
+        } else {
+            System.out.println("This position is busy");
         }
-        return x;
     }
 
-    private int generateYPosition() {
-        int heigth = getHeight();
-        int y = Math.round(random.nextInt(heigth / 10) * 10);
-        return y;
+    private Cell generatePosition(Cell cell) {
+        Integer[] coordinates = new Integer[2];
+        int width = getWidth();
+        int height = getHeight();
+        int x = Math.round(random.nextInt(width / 10) * 10);
+        int y = Math.round(random.nextInt(height / 10) * 10);
+        coordinates[0] = x;
+        coordinates[1] = y;
+        if (positions.size() == 0) {
+            positions.add(coordinates);
+            cell.setPosition(coordinates[0], coordinates[1]);
+            return cell;
+        } else {
+            Iterator<Integer[]> iter = positions.iterator();
+            while (iter.hasNext()) {
+                Integer[] pos = iter.next();
+                if (!(pos[0] == coordinates[0] && pos[1] == coordinates[1])) {
+                    positions.add(coordinates);
+                    cell.setPosition(coordinates[0], coordinates[1]);
+                    return cell;
+                }
+            }
+        }
+        return null;
     }
 
 }
