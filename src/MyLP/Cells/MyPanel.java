@@ -26,13 +26,11 @@ public class MyPanel extends JPanel {
 
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        int height = getHeight();
-        int width = getWidth();
-        for (int i = 10; i < width; i += 10) {
-            g.drawLine(i, height, i, 0);
+        for (int i = 10; i < x; i += 10) {
+            g.drawLine(i, y, i, 0);
         }
-        for (int j = 10; j < height; j += 10) {
-            g.drawLine(width, j, 0, j);
+        for (int j = 10; j < y; j += 10) {
+            g.drawLine(x, j, 0, j);
         }
 
 
