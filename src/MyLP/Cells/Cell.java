@@ -6,23 +6,15 @@ public class Cell extends Rectangle {
     protected static final int SIZE = 10;
     private int x;
     private int y;
-
-    public Cell(){
-//        isAlive = true;
-    }
-
-
-//    private boolean isAlive;
-//    public boolean isAlive() {
-//        return isAlive;
-//    }
-//    public void setAlive(boolean alive) {
-//        isAlive = alive;
-//    }
+    private boolean isAlive;
 
     public void setPosition(int x, int y) {
         this.y = y;
         this.x = x;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
     }
 
     public int getX1() {
