@@ -7,7 +7,11 @@ import java.awt.event.ActionListener;
 
 
 public class MyFrame extends JFrame {
-    MyPanel panel2 = new MyPanel(302,400);
+    private static final int WIDTH = 302;
+    private static final int HEIGHT = 400;
+    MyPanel panel2 = new MyPanel(WIDTH,HEIGHT);
+    RemoveCell rc = new RemoveCell();
+    Thread killThread = new Thread(rc);
 
     public MyFrame() {
         setLayout(new FlowLayout());
@@ -19,17 +23,19 @@ public class MyFrame extends JFrame {
         ActionListener listener = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                panel2.createCells();
+                new CellsActions().generate(WIDTH,HEIGHT);
                 panel2.repaint();
             }
         };
-        Timer timer = new Timer(10,listener);
+        Timer timer = new Timer(1000,listener);
 
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 start.setEnabled(false);
                 timer.start();
+                killThread.start();
+
             }
         });
 
