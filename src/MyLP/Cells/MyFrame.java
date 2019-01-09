@@ -50,7 +50,7 @@ public class MyFrame extends JFrame {
         clean.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                panel2.array = null;
+                panel2.list = null;
                 panel2.repaint();
             }
         });
