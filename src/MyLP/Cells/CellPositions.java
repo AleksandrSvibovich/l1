@@ -27,13 +27,11 @@ public class CellPositions {
 //        return bool;
 //    }
 //
-//    public boolean[][] neighbors() {
-//        boolTwo = new boolean[x][y];
-//        for (int i = 0; i < bool.length; i+=10) {
-//            for (int j = 0; j <bool.length; j+=10) {
-//                if(bool[i][j]){
+//    public ArrayList<Cell> neighbors(int gameFieldSizeX, int gameFieldSizeY) {
+//        ArrayList<Cell> list= new ArrayList<>();
+//        for (int i = 0; i < gameFieldSizeX; i++) {
+//            for (int j = 0; j <gameFieldSizeY; j++) {
 //
-//                }
 //            }
 //
 ////            if (cell.isAlive()) {
@@ -50,8 +48,8 @@ public class CellPositions {
 ////            }
 //        }
 //
-//        return boolTwo;
-//                //fillListByBoolean(boolTwo);
+//        return list;
+                //fillListByBoolean(boolTwo);
 //    }
 //
 //    private int checkRules(Cell cell, int x, int y) {
@@ -115,6 +113,8 @@ public class CellPositions {
 //        return list2;
 //    }
 //
+
+
 }
 
 

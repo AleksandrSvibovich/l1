@@ -17,6 +17,7 @@ public class MyFrame extends JFrame {
         JButton start = new JButton("Start");
         JButton stop = new JButton("Stop");
         JButton clean = new JButton("Clean");
+        JButton step = new JButton("Step");
 
 //        ActionListener listener = new ActionListener() {
 //            @Override
@@ -55,8 +56,17 @@ public class MyFrame extends JFrame {
             }
         });
 
+        step.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                panel2.list = panel2.getNextGeneration();
+                panel2.repaint();
+            }
+        });
+
 
         panel.add(start);
+        panel.add(step);
         panel.add(stop);
         panel.add(clean);
 
