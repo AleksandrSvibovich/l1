@@ -37,10 +37,6 @@ public class MyPanel extends JPanel {
                 }
             }
         }
-//        } else {
-//            list = new ArrayList<>();
-//            initiateStartScreen();
-//        }
     }
 
 
@@ -57,8 +53,7 @@ public class MyPanel extends JPanel {
 
 
     public Cell getCell(int x, int y) {
-        Cell cell = list.get(x * GAME_FIELD_SIZE_X + y);
-        return cell;
+        return list.get(x * GAME_FIELD_SIZE_X + y);
     }
 
     public ArrayList<Cell> getNextGeneration() {
@@ -68,26 +63,33 @@ public class MyPanel extends JPanel {
                 Cell cell = getCell(i, j);
                 if (cell.isCellAlive()) {
                     int numOfNeighbors = countNeighbors(i, j);
-                    if (numOfNeighbors<=2 || numOfNeighbors>=4){
+                    if (numOfNeighbors <= 2 || numOfNeighbors >= 4) {
                         cell.setAlive(false);
                         list.add(cell);
-                    }else {
+                    } else {
                         list.add(cell);
                     }
+                }else {
+                    list.add(cell);
                 }
             }
         }
         return list;
     }
 
+    private boolean isField(int i, int j) {
+        return (!((i < 0 || i > GAME_FIELD_SIZE_X) || (j < 0 || j > GAME_FIELD_SIZE_Y)));
+    }
+
     private int countNeighbors(int i, int j) {
         int count = 0;
         for (int k = -1; k < 2; k++) {
             for (int l = -1; l < 2; l++) {
-                if(!(k == i && l ==j)){
-                    boolean flag = getCell(k + i, j + l).isCellAlive();
-                    if(flag){
-                        count++;
+                if (!(k == i && l == j)) {
+                    if (isField((k + i), (j + l))) {
+                        if (getCell(k + i, j + l).isCellAlive()) {
+                            count++;
+                        }
                     }
                 }
             }
