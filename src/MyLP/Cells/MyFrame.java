@@ -2,40 +2,39 @@ package MyLP.Cells;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 
 public class MyFrame extends JFrame {
+    private static final int HEIGHT = 202;
     private static final int WIDTH = 302;
-    private static final int HEIGHT = 400;
-    MyPanel panel2 = new MyPanel(WIDTH,HEIGHT);
-    RemoveCell rc = new RemoveCell();
-    Thread killThread = new Thread(rc);
+    MyPanel panel2 = new MyPanel(HEIGHT, WIDTH);
 
     public MyFrame() {
         setLayout(new FlowLayout());
         JPanel panel = new JPanel();
         JButton start = new JButton("Start");
         JButton stop = new JButton("Stop");
+        JButton clean = new JButton("Clean");
+        JButton step = new JButton("Step");
 
-
-        ActionListener listener = new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                new CellsActions().generate(WIDTH,HEIGHT);
-                panel2.repaint();
-            }
-        };
-        Timer timer = new Timer(1000,listener);
+//        ActionListener listener = new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                panel2.repaint();
+//            }
+//        };
+//
+//        Timer timer = new Timer(3000, listener);
 
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                panel2.initiateStartScreen();
                 start.setEnabled(false);
-                timer.start();
-                killThread.start();
-
+                start.setText("Running");
+                clean.setEnabled(false);
+                panel2.repaint();
             }
         });
 
@@ -43,15 +42,47 @@ public class MyFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 start.setEnabled(true);
-                timer.stop();
+                start.setText("Start");
+                clean.setEnabled(true);
             }
         });
 
+        clean.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                panel2.list = null;
+                panel2.repaint();
+            }
+        });
+
+        step.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                panel2.list = panel2.getNextGeneration();
+                panel2.repaint();
+            }
+        });
+
+        panel2.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                panel2.mouseAction(e.getX(),e.getY());
+            }
+        });
 
         panel.add(start);
+        panel.add(step);
         panel.add(stop);
-        add(panel, BorderLayout.SOUTH);
+        panel.add(clean);
+
         add(panel2, BorderLayout.NORTH);
+        add(panel, BorderLayout.SOUTH);
+
 
     }
 }
+
+
+
+
+
