@@ -2,13 +2,12 @@ package MyLP.Cells;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 
 public class MyFrame extends JFrame {
-    private static final int HEIGHT = 302;
-    private static final int WIDTH = 402;
+    private static final int HEIGHT = 202;
+    private static final int WIDTH = 302;
     MyPanel panel2 = new MyPanel(HEIGHT, WIDTH);
 
     public MyFrame() {
@@ -64,6 +63,12 @@ public class MyFrame extends JFrame {
             }
         });
 
+        panel2.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                panel2.mouseAction(e.getX(),e.getY());
+            }
+        });
 
         panel.add(start);
         panel.add(step);

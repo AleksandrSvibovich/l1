@@ -5,8 +5,8 @@ public class Cell {
 
     private boolean isAlive;
 
-    public Cell(){
-
+    public Cell(boolean b){
+        isAlive =b;
     }
 
     public boolean isCellAlive() {
