@@ -1,0 +1,10 @@
+Test
+Read
+From
+   file
+      and
+      print
+
+   that
+ in
+console!

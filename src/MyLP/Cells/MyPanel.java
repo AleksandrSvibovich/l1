@@ -7,8 +7,8 @@ import java.util.Random;
 
 public class MyPanel extends JPanel {
     private static final int SIZE = 10;
-    protected ArrayList<Cell> list;
-    protected ArrayList<Cell> list2;
+    protected volatile ArrayList<Cell> list;
+    protected volatile ArrayList<Cell> list2;
     private static int GAME_FIELD_SIZE_X; // количество столбцов
     private static int GAME_FIELD_SIZE_Y; // кол-во строк
     private Random rand = new Random();
