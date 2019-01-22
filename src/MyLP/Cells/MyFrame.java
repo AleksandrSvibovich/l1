@@ -6,8 +6,8 @@ import java.awt.event.*;
 
 
 public class MyFrame extends JFrame {
-    private static final int HEIGHT = 202;
-    private static final int WIDTH = 302;
+    private static final int HEIGHT = 303;
+    private static final int WIDTH = 403;
     MyPanel panel2 = new MyPanel(HEIGHT, WIDTH);
 
     public MyFrame() {
@@ -17,15 +17,6 @@ public class MyFrame extends JFrame {
         JButton stop = new JButton("Stop");
         JButton clean = new JButton("Clean");
         JButton step = new JButton("Step");
-
-//        ActionListener listener = new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                panel2.repaint();
-//            }
-//        };
-//
-//        Timer timer = new Timer(3000, listener);
 
         start.addActionListener(new ActionListener() {
             @Override
