@@ -9,7 +9,7 @@ import java.util.Random;
  * Created by Aleksandr_Svibovich on 1/22/2019.
  */
 public class MyCellPanel extends JPanel {
-    private static int SIZE = 10;
+    protected static int SIZE = 10;
     private int xsize; // количество столбцов
     private int ysize; // кол-во строк
     protected java.util.List<MyCell> list;
@@ -62,4 +62,6 @@ public class MyCellPanel extends JPanel {
             }
         }
     }
+
+
 }

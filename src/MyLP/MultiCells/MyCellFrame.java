@@ -15,7 +15,7 @@ public class MyCellFrame extends JFrame {
     private static final int HEIGHT = 303;
     private static final int WIDTH = 403;
     private MyCellPanel gamePanel = new MyCellPanel(HEIGHT, WIDTH);
-    private LifeThread life = new LifeThread(gamePanel);
+    private LifeThread controlThread = new LifeThread(gamePanel);
 
     public MyCellFrame() {
         setLayout(new FlowLayout());
@@ -27,8 +27,9 @@ public class MyCellFrame extends JFrame {
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                life.start();
+                controlThread.start();
                 start.setEnabled(false);
+                clear.setEnabled(false);
                 start.setText("Running");
             }
         });
@@ -36,8 +37,10 @@ public class MyCellFrame extends JFrame {
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                life.setThreadStop();
+                controlThread.setThreadStop();
+                controlThread = new LifeThread(gamePanel);
                 start.setEnabled(true);
+                clear.setEnabled(true);
                 start.setText("Start");
             }
         });
@@ -45,7 +48,8 @@ public class MyCellFrame extends JFrame {
         clear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                logic.setListClear();
+                gamePanel.list = null;
+                controlThread.setThreadStop();
                 gamePanel.repaint();
             }
         });
@@ -53,8 +57,7 @@ public class MyCellFrame extends JFrame {
         gamePanel.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                e.getX();
-                e.getY();
+                controlThread.mouseAction(e.getX(),e.getY());
             }
         });
 
