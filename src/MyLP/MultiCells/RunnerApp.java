@@ -19,7 +19,7 @@ public class RunnerApp {
                 mcf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 mcf.setSize(WIDTH,HEIGHT);
                 mcf.setLocation(dimension.width/2 - WIDTH/2, dimension.height/2 - HEIGHT/2);
-                mcf.setTitle("Attempt #2");
+                mcf.setTitle("Version 0.0.12");
                 mcf.setResizable(false);
                 mcf.setVisible(true);
             }
