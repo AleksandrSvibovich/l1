@@ -7,8 +7,8 @@ import java.util.List;
  * Created by Aleksandr_Svibovich on 1/22/2019.
  */
 public class LifeThread extends Thread {
-    MyCellPanel panel;
-    List<MyCell> listWithCells;
+    private MyCellPanel panel;
+    protected List<MyCell> listWithCells;
 
     public LifeThread(MyCellPanel panel){
         this.panel = panel;
@@ -20,12 +20,17 @@ public class LifeThread extends Thread {
         isAlive = false;
     }
 
+    public void setAlive(){
+        isAlive = true;
+    }
+
     public void run(){
+        setAlive();
         while (isAlive){
             panel.list = getNextGeneration();
             panel.repaint();
             try {
-                Thread.sleep(150);
+                Thread.sleep(300);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -33,14 +38,14 @@ public class LifeThread extends Thread {
         }
     }
 
-    public synchronized List<MyCell> getNextGeneration() {
+    private synchronized List<MyCell> getNextGeneration() {
         listWithCells = listWithDeadCells();
         for (int i = 0; i < panel.getXsize(); i++) {
             for (int j = 0; j < panel.getYsize(); j++) {
                 MyCell cell = panel.getCell(i, j);
                 if (cell.isCellAlive()) {
                     int numOfNeighbors = countNeighbors(i, j);
-                    if (numOfNeighbors <=2 || numOfNeighbors >= 4) {
+                    if (numOfNeighbors <2 || numOfNeighbors >= 4) {
                         getCellFromNextGeneration(i,j).setAlive(false);
                     } else {
                         getCellFromNextGeneration(i,j).setAlive(true);
@@ -106,6 +111,16 @@ public class LifeThread extends Thread {
             }
         }
         return null;
+    }
+
+    public void mouseAction(int x, int y) {
+        MyCell cell = panel.getCell(x/panel.SIZE,y/panel.SIZE);
+        if (cell.isCellAlive()){
+            cell.setAlive(false);
+        }else {
+            cell.setAlive(true);
+        }
+        panel.repaint();
     }
 
     public MyCell getCellFromNextGeneration(int x, int y) {
