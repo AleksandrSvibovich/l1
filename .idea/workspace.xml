@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="732ef9d5-3308-45c4-8cf2-3a0701ee7f12" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MyLP/MultiCells/LifeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/MultiCells/LifeThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyLP/MultiCells/MyCellFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/MultiCells/MyCellFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyLP/MultiCells/MyCellPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/MultiCells/MyCellPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLP/GameOfLife/CellGameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/GameOfLife/CellGameOfLife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLP/GameOfLife/Dead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/GameOfLife/Dead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLP/GameOfLife/FieldGameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/GameOfLife/FieldGameOfLife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLP/GameOfLife/FrameGameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/GameOfLife/FrameGameOfLife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLP/GameOfLife/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/GameOfLife/Life.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLP/GameOfLife/RunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLP/GameOfLife/RunApp.java" afterDir="false" />
     </list>
     <ignored path="l1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,34 +37,35 @@
     <session id="1530501202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="14" />
+          <entry key="java" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1890" />
+          <entry key="java" value="2460" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1890" />
+          <entry key="JAVA" value="2460" />
         </counts>
       </usages-collector>
     </session>
@@ -71,52 +76,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/RunnerApp.java">
+        <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/FieldGameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/MyCellFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/LifeThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="335">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/MyCellPanel.java">
+        <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/CellGameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/MyCell.java">
+        <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/FrameGameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="233">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#1836#1837#0" expanded="true" />
+                <element signature="e#1899#1900#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/RunApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding>
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/Life.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#2285#2286#0" expanded="true" />
+                <element signature="e#2370#2371#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,13 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HM/part15/BallRunable.java" />
-        <option value="$PROJECT_DIR$/src/JR/SecondTwenty/Day26/Arkanoid.java" />
-        <option value="$PROJECT_DIR$/src/MyLP/GUIchat.java" />
-        <option value="$PROJECT_DIR$/src/MyLP/GuiChatGuru99/GUIchat.java" />
-        <option value="$PROJECT_DIR$/src/MyLP/GuiChatGuru99/MyFrame.java" />
-        <option value="$PROJECT_DIR$/src/MyLP/SecTimer/StartTimer.java" />
-        <option value="$PROJECT_DIR$/src/MyLP/SecTimer/Timer.java" />
         <option value="$PROJECT_DIR$/src/H_SWING/ChangeEvent/StartChange.java" />
         <option value="$PROJECT_DIR$/src/H_SWING/ChangeEvent/ChangeFrame.java" />
         <option value="$PROJECT_DIR$/src/H_SWING/Phone_book/PhoneBook.java" />
@@ -193,14 +208,21 @@
         <option value="$PROJECT_DIR$/src/MyLP/Cells/MyFrame.java" />
         <option value="$PROJECT_DIR$/src/MyLP/Cells/MyPanel.java" />
         <option value="$PROJECT_DIR$/src/MyLP/MultiCells/MyCellPanel.java" />
-        <option value="$PROJECT_DIR$/src/MyLP/MultiCells/LifeThread.java" />
         <option value="$PROJECT_DIR$/src/MyLP/MultiCells/MyCellFrame.java" />
+        <option value="$PROJECT_DIR$/src/MyLP/MultiCells/LifeThread.java" />
+        <option value="$PROJECT_DIR$/src/MyLP/MultiCells/RunnerApp.java" />
+        <option value="$PROJECT_DIR$/src/MyLP/GameOfLife/CellGameOfLife.java" />
+        <option value="$PROJECT_DIR$/src/MyLP/GameOfLife/Dead.java" />
+        <option value="$PROJECT_DIR$/src/MyLP/GameOfLife/FrameGameOfLife.java" />
+        <option value="$PROJECT_DIR$/src/MyLP/GameOfLife/FieldGameOfLife.java" />
+        <option value="$PROJECT_DIR$/src/MyLP/GameOfLife/RunApp.java" />
+        <option value="$PROJECT_DIR$/src/MyLP/GameOfLife/Life.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1762" />
-    <option name="y" value="70" />
+    <option name="x" value="1612" />
+    <option name="y" value="-19" />
     <option name="width" value="1761" />
     <option name="height" value="920" />
   </component>
@@ -209,6 +231,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,7 +256,7 @@
               <item name="l1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MyLP" type="462c0819:PsiDirectoryNode" />
-              <item name="Cells" type="462c0819:PsiDirectoryNode" />
+              <item name="GameOfLife" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="l1" type="b2602c69:ProjectViewProjectNode" />
@@ -245,12 +269,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548264947381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548786213202" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -271,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunnerApp">
+  <component name="RunManager" selected="Application.RunApp (1)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -395,13 +417,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyLP.Cells.RunApp" />
+    <configuration name="RunApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyLP.GameOfLife.RunApp" />
       <module name="l1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyLP.Cells.*" />
+          <option name="PATTERN" value="MyLP.GameOfLife.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -531,19 +553,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RunApp" />
       <item itemvalue="Application.RunTable" />
       <item itemvalue="Application.StartMenuDemo" />
       <item itemvalue="Application.TableStart" />
       <item itemvalue="Application.RunnerApp" />
+      <item itemvalue="Application.RunApp (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunApp (1)" />
         <item itemvalue="Application.RunnerApp" />
         <item itemvalue="Application.TableStart" />
         <item itemvalue="Application.StartMenuDemo" />
         <item itemvalue="Application.RunTable" />
-        <item itemvalue="Application.RunApp" />
       </list>
     </recent_temporary>
   </component>
@@ -572,25 +594,24 @@
     <frame x="1592" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2763496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28020567" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Palette&#9;" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46971735" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -598,6 +619,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -708,6 +730,18 @@
           <properties />
           <option name="timeStamp" value="117" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyLP/GameOfLife/Life.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyLP/GameOfLife/Life.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -716,49 +750,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyLP/GuiChatGuru99/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/H_SWING/Phone_book/PhoneBookFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/H_SWING/Phone_book/PhoneBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/javax/swing/JScrollBar.java" />
-    <entry file="file://$PROJECT_DIR$/src/H_SWING/ScrollBar/SBFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/H_SWING/ScrollBar/StartScrollBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/H_SWING/AudioMixer/RunApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/H_SWING/AudioMixer/Presets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -966,24 +957,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/MyCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLP/Cells/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/RunnerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -994,29 +971,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/MyCellPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/RunnerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="204">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/MyCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="3309" column="16" selection-start-line="3309" selection-start-column="16" selection-end-line="3309" selection-end-column="16" />
+          <folding>
+            <element signature="e#114480#114481#0" expanded="true" />
+            <element signature="e#114527#114528#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/MyCellFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="153">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/LifeThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="357">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="95" selection-start-column="4" selection-end-line="113" selection-end-column="5" />
           <folding>
             <element signature="e#403#404#0" expanded="true" />
             <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLP/MultiCells/MyCellPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/Dead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/CellGameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/RunApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/FieldGameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/FrameGameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#1836#1837#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLP/GameOfLife/Life.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
           </folding>
         </state>
       </provider>

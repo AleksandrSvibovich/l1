@@ -17,7 +17,7 @@ public class FrameGameOfLife extends JFrame {
     private static FieldGameOfLife fieldGameOfLife;
     private Life life;
     private Dead dead;
-    ExecutorService service = Executors.newFixedThreadPool(2);
+    ExecutorService service;
 
     public FrameGameOfLife(int height, int width) {
         setLayout(new FlowLayout());
@@ -32,12 +32,13 @@ public class FrameGameOfLife extends JFrame {
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                service = Executors.newFixedThreadPool(2);
                 service.submit(life);
-                service.submit(dead);
+//                service.submit(dead);
                 start.setEnabled(false);
                 clear.setEnabled(false);
                 start.setText("Running");
-                service.shutdown();
+
             }
         });
 
@@ -48,13 +49,14 @@ public class FrameGameOfLife extends JFrame {
                 start.setEnabled(true);
                 clear.setEnabled(true);
                 start.setText("Start");
+                service.shutdown();
             }
         });
 
         clear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                fieldGameOfLife.listCell = null;
             }
         });
 

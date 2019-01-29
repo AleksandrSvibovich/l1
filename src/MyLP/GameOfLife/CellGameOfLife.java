@@ -6,6 +6,10 @@ package MyLP.GameOfLife;
 public class CellGameOfLife {
     private boolean isAlive;
 
+    public CellGameOfLife(boolean status) {
+        isAlive = status;
+    }
+
     public boolean isCellAlive() {
         return isAlive;
     }

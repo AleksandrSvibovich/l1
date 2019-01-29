@@ -7,8 +7,8 @@ import java.awt.*;
  * Created by Aleksandr_Svibovich on 1/25/2019.
  */
 public class RunApp {
-    private static final int HEIGHT = 600;
-    private static final int WIDTH = 390;
+    private static final int HEIGHT = 280;
+    private static final int WIDTH = 220;
 
     public static void main(String[] args) {
         startApp();

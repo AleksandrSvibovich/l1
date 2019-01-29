@@ -13,6 +13,5 @@ public class Dead implements Runnable {
     @Override
     public void run() {
 //        field.repaint();
-        System.out.println("Dead");
     }
 }
