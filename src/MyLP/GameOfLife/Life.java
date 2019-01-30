@@ -27,6 +27,11 @@ public class Life implements Runnable {
         while (flagActive){
             nextGeneration();
             field.repaint();
+            try {
+                Thread.currentThread().sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
 

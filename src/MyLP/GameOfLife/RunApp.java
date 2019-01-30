@@ -7,8 +7,8 @@ import java.awt.*;
  * Created by Aleksandr_Svibovich on 1/25/2019.
  */
 public class RunApp {
-    private static final int HEIGHT = 280;
-    private static final int WIDTH = 220;
+    private static final int HEIGHT = 800;
+    private static final int WIDTH = 740;
 
     public static void main(String[] args) {
         startApp();
@@ -24,7 +24,7 @@ public class RunApp {
                 frame.setSize(WIDTH,HEIGHT);
                 frame.setLocation(dimension.width/2 - WIDTH/2, dimension.height/2 - HEIGHT/2);
                 frame.setTitle("Version 1.0.0");
-                frame.setResizable(false);
+                frame.setResizable(true);
                 frame.setVisible(true);
             }
         });
