@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -12,7 +13,7 @@ import java.util.concurrent.Executors;
  */
 public class FrameGameOfLife extends JFrame {
 
-    private final int PADDING_X = 20;
+    private final int PADDING_X = 40;
     private final int PADDING_Y = 100;
     private static FieldGameOfLife fieldGameOfLife;
     private Life life;
@@ -34,7 +35,7 @@ public class FrameGameOfLife extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 service = Executors.newFixedThreadPool(2);
                 service.submit(life);
-//                service.submit(dead);
+                service.submit(dead);
                 start.setEnabled(false);
                 clear.setEnabled(false);
                 start.setText("Running");
@@ -45,7 +46,6 @@ public class FrameGameOfLife extends JFrame {
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
                 start.setEnabled(true);
                 clear.setEnabled(true);
                 start.setText("Start");
@@ -56,7 +56,8 @@ public class FrameGameOfLife extends JFrame {
         clear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                fieldGameOfLife.listCell = null;
+                fieldGameOfLife.listCell = new ArrayList<>();
+                fieldGameOfLife.repaint();
             }
         });
 

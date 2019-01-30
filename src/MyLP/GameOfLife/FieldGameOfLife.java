@@ -56,4 +56,6 @@ public class FieldGameOfLife extends JPanel{
     protected synchronized CellGameOfLife getCell(int x, int y){
         return listCell.get(x * xsize + y);
     }
+
+
 }
