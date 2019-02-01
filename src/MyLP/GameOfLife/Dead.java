@@ -6,30 +6,21 @@ package MyLP.GameOfLife;
 public class Dead implements Runnable {
     private FieldGameOfLife field;
 
-    public Dead(FieldGameOfLife field){
-        this.field = field;
-    }
-
     @Override
     public void run() {
         while (true) {
             killCell();
             field.repaint();
-            try {
-                Thread.currentThread().sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
         }
     }
 
     private void killCell() {
-        for (int i = 0; i < field.xsize; i++) {
-            for (int j = 0; j < field.xsize; j++) {
+        for (int i = 0; i < field.getXsize(); i++) {
+            for (int j = 0; j < field.getYsize(); j++) {
                 CellGameOfLife cell = field.getCell(i, j);
                 if (cell.isCellAlive()) {
                     int numOfNeighbors = countNeighbors(i, j);
-                    if (numOfNeighbors != 3 ) {
+                    if ((numOfNeighbors != 3) && (numOfNeighbors != 2)) {
                         cell.setAlive(false);
                     }
                 }
@@ -56,6 +47,10 @@ public class Dead implements Runnable {
     }
 
     private boolean isField(int i, int j) {
-        return ((i >= 0 && i <= field.xsize) && (j >= 0 && j <= field.ysize));
+        return ((i >= 0 && i <= field.getXsize()) && (j >= 0 && j <= field.getYsize()));
+    }
+
+    public void setField(FieldGameOfLife field) {
+        this.field = field;
     }
 }
