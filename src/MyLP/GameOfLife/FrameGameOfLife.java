@@ -15,10 +15,11 @@ public class FrameGameOfLife extends JFrame {
 
     private final int PADDING_X = 40;
     private final int PADDING_Y = 100;
-    private FieldGameOfLife fieldGameOfLife;
+    private  FieldGameOfLife fieldGameOfLife;
     private Life life;
     private Dead dead;
     private ExecutorService service;
+    private Engine engine = new Engine();
 
     public FrameGameOfLife(int height, int width) {
         setLayout(new FlowLayout());
@@ -27,15 +28,13 @@ public class FrameGameOfLife extends JFrame {
         JButton stop = new JButton("Stop");
         JButton clear = new JButton("Clear");
         fieldGameOfLife = new FieldGameOfLife(width - PADDING_X, height - PADDING_Y);
-
+        engine.setFiled(fieldGameOfLife);
+        dead = new Dead(fieldGameOfLife, engine);
+        life = new Life(fieldGameOfLife, engine);
 
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                life = new Life();
-                life.setField(fieldGameOfLife);
-                dead = new Dead();
-                dead.setField(fieldGameOfLife);
                 service = Executors.newFixedThreadPool(2);
                 service.submit(life);
                 service.submit(dead);
@@ -49,11 +48,12 @@ public class FrameGameOfLife extends JFrame {
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                life.setFlag(false);
+                dead.setFlag(false);
                 start.setEnabled(true);
                 clear.setEnabled(true);
                 start.setText("Start");
-                service.shutdownNow();
-
+                service.shutdown();
             }
         });
 

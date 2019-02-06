@@ -9,9 +9,11 @@ import java.util.Random;
  * Created by Aleksandr_Svibovich on 1/25/2019.
  */
 public class FieldGameOfLife extends JPanel{
-    private int xsize;
-    private int ysize;
-    private volatile ArrayList<CellGameOfLife> listCell;
+    private final int xsize;
+    private final int ysize;
+
+    private static volatile ArrayList<CellGameOfLife> listCell = new ArrayList<>();
+    protected Random random = new Random();
 
     public FieldGameOfLife(int height, int width){
         xsize = width / 10;
@@ -25,10 +27,8 @@ public class FieldGameOfLife extends JPanel{
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.setColor(Color.ORANGE);
-        if(listCell == null){
-            initializeScreen();
-        }
-        if (!(listCell.isEmpty())) {
+        initializeScreen();
+        if (listCell != null && !(listCell.isEmpty())) {
             for (int i = 0; i < xsize; i++) {
                 for (int j = 0; j < ysize; j++) {
                     CellGameOfLife cell = getCell(i, j);
@@ -41,8 +41,6 @@ public class FieldGameOfLife extends JPanel{
     }
 
     private void initializeScreen() {
-        listCell = new ArrayList<>();
-        Random random = new Random();
         for (int i = 0; i < xsize; i++) {
             for (int j = 0; j < ysize; j++) {
                 boolean status = random.nextBoolean();
@@ -52,7 +50,7 @@ public class FieldGameOfLife extends JPanel{
         }
     }
 
-    public synchronized CellGameOfLife getCell(int x, int y){
+    protected synchronized CellGameOfLife getCell(int x, int y){
         return listCell.get(x * xsize + y);
     }
 
@@ -64,7 +62,8 @@ public class FieldGameOfLife extends JPanel{
         return ysize;
     }
 
-    public void setListCell(ArrayList<CellGameOfLife> listCell) {
-        this.listCell = listCell;
+    public static void setListCell(ArrayList<CellGameOfLife> listCell) {
+        FieldGameOfLife.listCell = listCell;
     }
+
 }
