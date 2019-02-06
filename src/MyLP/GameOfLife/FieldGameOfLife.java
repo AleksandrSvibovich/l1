@@ -9,9 +9,10 @@ import java.util.Random;
  * Created by Aleksandr_Svibovich on 1/25/2019.
  */
 public class FieldGameOfLife extends JPanel{
-    protected final int xsize;
-    protected final int ysize;
-    protected static volatile ArrayList<CellGameOfLife> listCell = new ArrayList<>();
+    private final int xsize;
+    private final int ysize;
+
+    private static volatile ArrayList<CellGameOfLife> listCell = new ArrayList<>();
     protected Random random = new Random();
 
     public FieldGameOfLife(int height, int width){
@@ -36,10 +37,6 @@ public class FieldGameOfLife extends JPanel{
                     }
                 }
             }
-        }else {
-            g.fillOval(120,120,40,40);
-            System.out.println("pusto!");
-
         }
     }
 
@@ -57,5 +54,16 @@ public class FieldGameOfLife extends JPanel{
         return listCell.get(x * xsize + y);
     }
 
+    public int getXsize() {
+        return xsize;
+    }
+
+    public int getYsize() {
+        return ysize;
+    }
+
+    public static void setListCell(ArrayList<CellGameOfLife> listCell) {
+        FieldGameOfLife.listCell = listCell;
+    }
 
 }

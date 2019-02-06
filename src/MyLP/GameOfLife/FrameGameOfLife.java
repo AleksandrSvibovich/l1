@@ -15,10 +15,11 @@ public class FrameGameOfLife extends JFrame {
 
     private final int PADDING_X = 40;
     private final int PADDING_Y = 100;
-    private static FieldGameOfLife fieldGameOfLife;
+    private  FieldGameOfLife fieldGameOfLife;
     private Life life;
     private Dead dead;
-    ExecutorService service;
+    private ExecutorService service;
+    private Engine engine = new Engine();
 
     public FrameGameOfLife(int height, int width) {
         setLayout(new FlowLayout());
@@ -27,8 +28,9 @@ public class FrameGameOfLife extends JFrame {
         JButton stop = new JButton("Stop");
         JButton clear = new JButton("Clear");
         fieldGameOfLife = new FieldGameOfLife(width - PADDING_X, height - PADDING_Y);
-        dead = new Dead(fieldGameOfLife);
-        life = new Life(fieldGameOfLife);
+        engine.setFiled(fieldGameOfLife);
+        dead = new Dead(fieldGameOfLife, engine);
+        life = new Life(fieldGameOfLife, engine);
 
         start.addActionListener(new ActionListener() {
             @Override
@@ -39,13 +41,15 @@ public class FrameGameOfLife extends JFrame {
                 start.setEnabled(false);
                 clear.setEnabled(false);
                 start.setText("Running");
-
+                service.shutdown();
             }
         });
 
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                life.setFlag(false);
+                dead.setFlag(false);
                 start.setEnabled(true);
                 clear.setEnabled(true);
                 start.setText("Start");
@@ -56,7 +60,7 @@ public class FrameGameOfLife extends JFrame {
         clear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                fieldGameOfLife.listCell = new ArrayList<>();
+                fieldGameOfLife.setListCell(new ArrayList<>());
                 fieldGameOfLife.repaint();
             }
         });
