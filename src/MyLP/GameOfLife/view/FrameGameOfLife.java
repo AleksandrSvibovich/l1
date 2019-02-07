@@ -1,4 +1,4 @@
-package MyLP.GameOfLife;
+package MyLP.GameOfLife.view;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,6 +8,11 @@ import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import MyLP.GameOfLife.FieldGameOfLife;
+import MyLP.GameOfLife.controller.Dead;
+import MyLP.GameOfLife.controller.Engine;
+import MyLP.GameOfLife.controller.Life;
+
 /**
  * Created by Aleksandr_Svibovich on 1/25/2019.
  */
@@ -15,11 +20,10 @@ public class FrameGameOfLife extends JFrame {
 
     private final int PADDING_X = 40;
     private final int PADDING_Y = 100;
-    private  FieldGameOfLife fieldGameOfLife;
+    private FieldGameOfLife fieldGameOfLife;
     private Life life;
     private Dead dead;
     private ExecutorService service;
-    private Engine engine = new Engine();
 
     public FrameGameOfLife(int height, int width) {
         setLayout(new FlowLayout());
@@ -28,9 +32,6 @@ public class FrameGameOfLife extends JFrame {
         JButton stop = new JButton("Stop");
         JButton clear = new JButton("Clear");
         fieldGameOfLife = new FieldGameOfLife(width - PADDING_X, height - PADDING_Y);
-        engine.setFiled(fieldGameOfLife);
-        dead = new Dead(fieldGameOfLife, engine);
-        life = new Life(fieldGameOfLife, engine);
 
         start.addActionListener(new ActionListener() {
             @Override
@@ -48,8 +49,6 @@ public class FrameGameOfLife extends JFrame {
         stop.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                life.setFlag(false);
-                dead.setFlag(false);
                 start.setEnabled(true);
                 clear.setEnabled(true);
                 start.setText("Start");
