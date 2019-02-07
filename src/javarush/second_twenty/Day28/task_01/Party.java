@@ -1,0 +1,25 @@
+package javarush.second_twenty.Day28.task_01;
+
+/**
+ * Created by Aleksandr_Svibovich on 9/27/2018.
+ */
+public class Party {
+    public static void main(String[] args) {
+        getDeliciousDrink().taste();
+        System.out.println(getWine().getHolidayName());
+        System.out.println(getBubblyWine().getHolidayName());
+        System.out.println(getWine().getHolidayName());
+    }
+
+    public static Drink getDeliciousDrink() {
+        return new Wine();
+    }
+
+    public static Wine getWine() {
+        return new Wine();
+    }
+
+    public static Wine getBubblyWine() {
+        return new BubbleWine();
+    }
+}
