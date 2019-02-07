@@ -5,14 +5,16 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.Random;
 
+import MyLP.GameOfLife.model.Cell;
+
 /**
  * Created by Aleksandr_Svibovich on 1/25/2019.
  */
-public class FieldGameOfLife extends JPanel{
+public class FieldGameOfLife extends JPanel {
     private final int xsize;
     private final int ysize;
 
-    private static volatile ArrayList<CellGameOfLife> listCell = new ArrayList<>();
+    private volatile ArrayList<Cell> listCell = new ArrayList<>();
     protected Random random = new Random();
 
     public FieldGameOfLife(int height, int width){
@@ -31,7 +33,7 @@ public class FieldGameOfLife extends JPanel{
         if (listCell != null && !(listCell.isEmpty())) {
             for (int i = 0; i < xsize; i++) {
                 for (int j = 0; j < ysize; j++) {
-                    CellGameOfLife cell = getCell(i, j);
+                    Cell cell = getCell(i, j);
                     if (cell.isCellAlive()) {
                         g.fillOval(i * 10, j * 10, 10, 10);
                     }
@@ -44,13 +46,13 @@ public class FieldGameOfLife extends JPanel{
         for (int i = 0; i < xsize; i++) {
             for (int j = 0; j < ysize; j++) {
                 boolean status = random.nextBoolean();
-                CellGameOfLife cell = new CellGameOfLife(status);
+                Cell cell = new Cell(status);
                 listCell.add(cell);
             }
         }
     }
 
-    protected synchronized CellGameOfLife getCell(int x, int y){
+    public synchronized Cell getCell(int x, int y){
         return listCell.get(x * xsize + y);
     }
 
@@ -62,8 +64,8 @@ public class FieldGameOfLife extends JPanel{
         return ysize;
     }
 
-    public static void setListCell(ArrayList<CellGameOfLife> listCell) {
-        FieldGameOfLife.listCell = listCell;
+    public void setListCell(ArrayList<Cell> listCell) {
+        this.listCell = listCell;
     }
 
 }
