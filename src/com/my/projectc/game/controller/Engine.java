@@ -58,5 +58,4 @@ public abstract class Engine implements Runnable {
     public boolean isField(int i, int j) {
         return ((i >= 0 && i <= field.getXsize()) && (j >= 0 && j <= field.getYsize()));
     }
-
 }
