@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: HM.part9.task_05.Test
-

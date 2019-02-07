@@ -1,4 +1,4 @@
-package JR.Mover;
+package javarush.mover;
 
 import javax.swing.*;
 import java.awt.*;
